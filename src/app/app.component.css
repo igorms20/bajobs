@@ -1,0 +1,88 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+.navbar {
+  background-color: #1E509A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1em;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
+
+.navbar .logo img {
+  width: 100px;
+  cursor: pointer;
+}
+
+/* footer {
+  margin-top: 20em;
+} */
+
+a {
+  color: white;
+}
+
+footer .container {
+  background-color: #1E509A;
+  padding: 5em 6em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container .info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5em;
+  margin-bottom: 3em;
+}
+
+
+footer .container .title {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+footer .container .about {
+  width: 20em;
+}
+
+footer .container .about p {
+  color: white;
+}
+
+footer .container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+footer .container ul li {
+  color: white;
+  font-weight: 500;
+}
+
+footer .container ul li fa-icon {
+  margin-right: .5em;
+}
+
+.copyright {
+  color: white;
+}
+
+body {
+  padding: 0;
+}

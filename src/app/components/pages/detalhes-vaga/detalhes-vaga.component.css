@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+  margin-bottom: 8em;
+}
+
+.tituloVaga {
+  color: #1E509A;
+  margin-bottom: 1em;
+}
+
+.main-info {
+  margin-bottom: 2em;
+}
+
+.main-info p {
+  border-bottom: 3px solid #1E509A;
+  padding: 1em;
+}
+
+.main-info p b {
+  color: #1E509A;
+}
+
+.descricaoVaga {
+  max-width: 80vw;
+  text-align: center;
+  margin-bottom: 2em;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.backIcon {
+  background-color: #1E509A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.backIcon:hover, .aplicar:hover {
+  background-color: #357be3;
+}
+
+.backIcon i {
+  font-size: 1.7em;
+  color: white;
+}
+
+h3 {
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  color: rgb(110, 110, 110);
+}
+
+.aplicar {
+  padding: .6em;
+  margin-top: 3em;
+  background-color: #1E509A;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .3s;
+  border: none;
+  font-weight: 500;
+  font-size: 1em;
+
+}
+

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { VagaService } from './services/vaga.service';
+import {faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bajobs';
+
+  faGithub = faGithub;
+  faLinkedin = faLinkedin;
+  faInstagram = faInstagram;
+
+
 }

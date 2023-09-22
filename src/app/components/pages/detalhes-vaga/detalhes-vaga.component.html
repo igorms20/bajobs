@@ -1,0 +1,15 @@
+<div *ngIf="vaga" class="container">
+  <h1 class="tituloVaga">{{ vaga.titulo }}</h1>
+  <div class="main-info">
+    <p><b>Empresa:</b> {{vaga.empresa}}</p>
+    <p><b>Local:</b> {{vaga.local}}</p>
+  </div>
+  <h3>Descrição da vaga:</h3>
+  <pre class="descricaoVaga">{{ vaga.descricao }}</pre>
+  <a href={{vaga.link}} target="_blank">
+    <button class="aplicar">Aplicar</button>
+  </a>
+  <div class="backIcon" (click)="backToHome()">
+    <i class="fi fi-br-arrow-small-left"></i>
+  </div>
+</div>

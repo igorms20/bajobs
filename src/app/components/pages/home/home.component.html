@@ -1,0 +1,12 @@
+<div class="presentation">
+  <h1>
+    As melhores vagas da BAHIA <br/>
+    você encontra aqui!
+  </h1>
+</div>
+<input type="text" class="vagaFilter" placeholder="Filtre pelo título da vaga" (input)="handleInput($event)">
+<select name="" id="filterByLocal" [(ngModel)]="localSelecionado" (input)="handleLocalInput($event)">
+  <option value="all"></option>
+  <option value="{{local}}" *ngFor="let local of locais">{{local}}</option>
+</select>
+<app-vagas-list [vagasFiltradas]="vagasFiltradas"></app-vagas-list>

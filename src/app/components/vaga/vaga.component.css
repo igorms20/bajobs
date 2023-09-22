@@ -1,0 +1,41 @@
+.container {
+  width: 25vw;
+  /* height: 12em; */
+  background-color: #EEEEEE;
+  padding: 2em;
+  border-radius: 12px;
+  border-bottom: 5px solid #1E509A;
+}
+
+.tituloVaga {
+  color: #1E509A;
+  font-weight: 600;
+  font-family: 'Roboto Condensed';
+  font-size: 1.3em;
+}
+
+.localVaga {
+  margin-top: 1em;
+  color: rgb(110, 110, 110);
+  font-weight: 500;
+  height: 3em;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+.detalhesVaga {
+  padding: .6em;
+  margin-top: 1em;
+  background-color: #1E509A;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .3s;
+  border: none;
+  font-weight: 500;
+}
+
+.detalhesVaga:hover {
+  background-color: #357be3;
+}

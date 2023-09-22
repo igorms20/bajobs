@@ -1,0 +1,31 @@
+.presentation {
+  height: 60vh;
+  background-image: url('../../../../assets/bg-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.vagaFilter {
+  margin-left: 3em;
+  margin-top: 3em;
+  border-radius: 4px;
+  padding: .4em .8em;
+  border: 1px solid gray;
+  font-size: 1em;
+  min-width: 30%;
+}
+
+#filterByLocal {
+  margin-left: 3em;
+}
+

@@ -1,0 +1,13 @@
+<div class="container">
+  <ul *ngIf="vagasFiltradas.length > 0 else noData">
+    <li class="vaga" *ngFor="let vaga of vagasFiltradas">
+      <app-vaga
+        [vaga]="vaga"
+      >
+      </app-vaga>
+    </li>
+  </ul>
+  <ng-template #noData>
+    <h2 class="noDataText" style="color: #1E509A;">Carregando vagas...</h2>
+  </ng-template>
+</div>
