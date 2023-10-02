@@ -11,6 +11,7 @@ import { DetalhesVagaComponent } from './components/pages/detalhes-vaga/detalhes
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContatoComponent } from './components/pages/contato/contato.component';
+import { SobreComponent } from './components/pages/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContatoComponent } from './components/pages/contato/contato.component';
     VagaComponent,
     VagasListComponent,
     DetalhesVagaComponent,
-    ContatoComponent
+    ContatoComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
