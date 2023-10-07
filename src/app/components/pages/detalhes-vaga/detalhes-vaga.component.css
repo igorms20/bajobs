@@ -28,7 +28,7 @@
 .descricaoVaga {
   max-width: 80vw;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
   overflow: auto;
   white-space: pre-wrap;
 }
@@ -65,7 +65,6 @@ h3 {
 
 .aplicar {
   padding: .6em;
-  margin-top: 3em;
   background-color: #1E509A;
   color: white;
   border-radius: 6px;
